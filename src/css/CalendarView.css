@@ -1,0 +1,18 @@
+.container {
+    max-height: 95vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.day-calendar {
+    width: 100%;
+}
+
+.day-calendar .rbc-timeslot-group {
+    min-height: 5rem !important;
+}
+
+.monthly-calendar {
+    width: 35%;
+    height: 16rem;
+}
