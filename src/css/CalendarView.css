@@ -4,8 +4,24 @@
     justify-content: space-between;
 }
 
+.add-event {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+}
+
 .day-calendar {
     width: 100%;
+    margin-right: 0.5rem;
+}
+
+.day-calendar .rbc-calendar {
+    border-radius: 1rem;
+}
+
+.rbc-time-header {
+    display: none;
 }
 
 .day-calendar .rbc-timeslot-group {
@@ -15,4 +31,19 @@
 .monthly-calendar {
     width: 35%;
     height: 16rem;
+}
+
+.event-details {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.event-title {
+    text-align: center;
+}
+
+.event-guests {
+    list-style-type: none;
+    padding: 0;
 }
